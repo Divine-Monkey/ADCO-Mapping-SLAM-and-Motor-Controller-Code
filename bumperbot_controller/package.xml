@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>bumperbot_controller</name>
+  <version>0.0.0</version>
+  <description>The bumperbot_controller package</description>
+  <maintainer email="antonio.brandi@outlook.it">Antonio Brandi</maintainer>
+  <license>Apache 2.0</license>
+  <author email="antonio.brandi@outlook.it">Antonio Brandi</author>
+
+  <maintainer email="bence.magyar.robotics@gmail.com">Bence Magyar</maintainer>
+  <maintainer email="denis@stoglrobotics.de">Denis Štogl</maintainer>
+  <maintainer email="christoph.froehlich@ait.ac.at">Christoph Froehlich</maintainer>
+  <maintainer email="sai.kishor@pal-robotics.com">Sai Kishor Kothakota</maintainer>
+
+  <license>Apache License 2.0</license>
+
+  <url type="website">https://control.ros.org</url>
+  <url type="bugtracker">https://github.com/ros-controls/ros2_controllers/issues</url>
+  <url type="repository">https://github.com/ros-controls/ros2_controllers/</url>
+
+  <author email="denis.stogl@stoglrobotics.de">Dr.-Ing. Denis Štogl</author>
+  <author email="giridhar6937@gmail.com">Giridhar Bukka</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>generate_parameter_library</build_depend>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2</depend>
+  <depend>eigen</depend>
+  <depend>control_msgs</depend>
+  <depend>controller_interface</depend>
+  <depend>hardware_interface</depend>
+  <depend>pluginlib</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>realtime_tools</depend>
+  <depend>rcpputils</depend>
+  <depend>std_srvs</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_msgs</depend>
+  
+  <exec_depend>tf_transformations</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>joy</exec_depend>
+  <exec_depend>joy_teleop</exec_depend>
+  <exec_depend>ros2_controllers</exec_depend>
+  <exec_depend>ros2_control</exec_depend>
+  <exec_depend>twist_mux</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_cmake_gmock</test_depend>
+  <test_depend>controller_manager</test_depend>
+  <test_depend>hardware_interface_testing</test_depend>
+  <test_depend>ros2_control_test_assets</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
